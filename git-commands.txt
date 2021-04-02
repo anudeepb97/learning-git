@@ -1,6 +1,11 @@
-git init . - makes current directory as local git repository
-git add . - adds all the current files to staging area(to track)
-git status - to check whether files are in staging area
-git commit  - commits all the files in staging area to mit history
-git diff - to check if any changes made to the files
-git show - displays recent commit with a message
+git init . : makes current directory as local git repository
+git add . : adds all the current files to staging area(to track)
+git status : to check whether files are in staging area
+git commit  : commits all the files in staging area to mit history
+git diff : to check if any changes made to the files
+git show : displays recent commit with a message
+git branch : enables to create a branch
+git branch -d <branchname> : deletes a branch
+git checkout - : switches to previous branch
+git checkout -b <branchname> : creates a new branch and switches to the created branch
+gti log --oneline : It shows commits with oneline description
